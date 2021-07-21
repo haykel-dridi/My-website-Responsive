@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Full Responsive Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links" id="links" id="links">
+                <i class="toggle fas fa-times" onclick="hideNav()"></i>
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fas fa-user-check"></i> about</li>
+                    <li><i class="fas fa-key"></i> skills</li>
+                    <li><i class="fas fa-heart"></i> interest</li>
+                    <li><i class="fas fa-phone"></i> connect me</li>
+                </ul>
+            </div>
+            <i class="toggle fas fa-bars" onclick="showNav()"></i>
+        </nav>
+        <div class="content">
+            <h1><span style="color: crimson;">Haykel</span>Dev Web</h1>
+                        <img src="./images/haykel2.png">
+
+        </div>
+    </header>
+    <!-- Start About me -->
+    <div class="about_me">
+        <h1><span>About me</span> </h1>
+        <div class="content">
+            <img src="./images/about.png">
+            <p>I am motivated by new technologies and web technologies in particular, for example <span> <strong style="color: crimson;"> HTML5, CSS3, Javascript, Angular...  </strong></p>
+        </div>
+    </div>
+    <!-- Start Skills -->
+    <div class="skills">
+        <h1> <span>My Skills</span></h1>
+        <div class="tools">
+            <img src="./images/angular.png">
+            <img src="./images/git.png">
+            <img src="./images/html.png">
+            <img src="./images/css.png">
+            <img src="./images/bootstrap.png">
+            <img src="./images/jquery.png">
+            <img src="./images/js.png">
+            <img src="./images/sql.png">
+          
+
+        </div>
+        <p>These are some tools that I used in my <strong style="color: crimson;"> web development career</strong></p>
+    </div>
+<!-- Start Interest -->
+    <div class="interest">
+        <h1><span>My Interest</span></h1>
+        <div class="content">
+            <img src="./images/interest.png">
+            <p>I am motivated by new technologies and web technologies in particular, for example <span> <strong style="color: crimson;"> HTML5, CSS3, Javascript, Angular...  </strong></p>
+        </div>
+    </div>
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <h1><span>My Profil </span></h1>
+        <div class="content">
+            <div class="text_box">
+                <img src="./images/haykel.png">
+                <h3> Haykel DRIDI </h3>
+                <p> I am Haykel DRIDI, 31 years old, I am a Tunisian Engineer in Computer Science, I am motivated by new technologies and web technologies in particular, I am trilingual I speak French, English, German and of course Arabic which is my native language </p>
+            </div>
+    
+        </div>
+    </div>
+    <!-- Start Connect ME -->
+    <div class="connect_me">
+        <h1><span>Connect me </span></h1>
+        <div class="social_media">
+            
+            <div class="content">
+                <h3>G-mail <i class="far fa-envelope"></i></h3>
+                <a href="#"> haykelinsat@gmail.com </a>
+            </div>
+            <div class="content">
+                <h3>Github <i class="fab fa-github"></i></h3>
+                <a href="#">https://github.com/haykel-dridi </a>
+            </div>
+        </div>
+    </div>
+    <footer>My Portofolio &copy; All Rights Reserved. <br> Haykel Dev Web 2021</footer>
+    
+
+    <script>
+        var links= document.getElementById('links');
+        function showNav(){
+            links.style.right = '0';
+        }
+        function hideNav(){
+            links.style.right = '-100%';
+        }
+    </script>
+</body>
+</html>
